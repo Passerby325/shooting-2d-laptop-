@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contra-like Shooting Game</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+        canvas {
+            background: #000;
+            display: block;
+        }
+        #time {
+            text-align: center;
+            font-size: 24px;
+            color: orange;
+            position: absolute;
+            top: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="time">Time: 0s</div>
+    <canvas id="gameCanvas"></canvas>
+    <script src="game.js"></script>
+</body>
+</html>
